@@ -1,0 +1,72 @@
+.hel{
+  color: red;
+  font-size: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.btn{
+  background-color: green;
+  color: white;
+  border:1px solid green ;
+  width: 100px;
+  height: 36px;
+  border-radius: 8px;
+  font-size: large;
+  font-family: sans-serif;
+  cursor: pointer;
+   
+
+
+}
+.nike{
+  color: black;
+  font-size: 20px;
+  font-family: sans-serif;
+  font-weight: 600;
+}
+.prize{
+  color: rgb(3, 172, 3);
+  font-size: 15px;
+  font-family: sans-serif;
+  font-weight: 600;
+}
+.text{
+  color: black;
+  font-size: 15px;
+  font-family: sans-serif;
+  font-weight: 550;
+}
+.addtocart{
+  background-color: rgba(246, 246, 13, 0.825);
+  border: none;
+  border-radius: 14px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-right: 20px;
+  padding-left: 20px;
+  font-size: 15px;
+  font-weight: 600;
+  font-family: sans-serif;
+  cursor: pointer;
+  margin-right: 5px;
+  margin-top: 8px;
+  
+}
+.addtocart:hover{
+  background-color: rgb(227, 227, 8);
+}
+.buynow{
+  background-color: rgb(255, 167, 3);
+  border: none;
+  border-radius: 14px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-right: 20px;
+  padding-left: 20px;
+  font-size: 15px;
+  font-family: sans-serif;
+  font-weight: 600;
+  cursor: pointer;
+}
+.buynow:hover{
+  background-color: rgb(216, 144, 9);
+}

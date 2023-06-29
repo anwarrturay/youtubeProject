@@ -1,0 +1,418 @@
+.subscribe-button{
+  background-color: rgb(200, 0, 0);
+  color: white;
+  border: none;
+  padding-top: 11px;
+  padding-bottom: 11px;
+  padding-left: 8px;
+  padding-right: 8px;
+  border-radius: 2px;
+  cursor: pointer;
+  margin-right: 8px;
+  margin-left: 8px;
+  transition: opacity 0.15s;
+}
+.subscribe-button:hover{
+  opacity: 0.8;
+}
+.subscribe-button:active{
+  opacity: 0.3;
+}
+
+.join-button{
+  background-color: white;
+  border-color: rgb(70, 131, 222);
+  border-style: solid;
+  border-width: 1px;
+  color: rgb(15, 72, 157);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 15px;
+  padding-left: 15px;
+  border-radius: 2px;
+  cursor: pointer;
+  transition: background-color 0.15s,
+  color 0.15s;
+}
+.join-button:hover{
+  background-color: rgb(70, 131, 222);
+  color: white;
+}
+.join-button:active{
+  opacity: 0.7;
+}
+.tweet-button{
+  background-color: rgb(51, 133, 227);
+  border-color: rgb(67, 101, 239);
+  border: none;
+  border-style: solid;
+  border-width: 1px;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 12px;
+  padding-right: 12px;
+  border-radius: 20px;
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+  margin-left: 8px;
+  margin-top: 8px;
+  transition: box-shadow 1s;
+}
+.tweet-button:hover{
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+}
+.submit-button{
+background-color: green;
+border-color: green;
+border-style: solid;
+border-width: 1px;
+color: white;
+padding-top: 11px;
+padding-bottom: 11px;
+padding-left: 15px;
+padding-right: 15px;
+border-radius: 2px;
+cursor: pointer;
+transition: opacity 0.15s, box-shadow 0.15s;
+}
+.submit-button:hover{
+opacity: 0.8;
+box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+}
+.submit-button:active{
+opacity: 0.8;
+}
+.addtocart-button{
+background-color: rgb(238, 220, 24);
+border-color: rgb(233, 233, 17);
+border-style: solid;
+color: black;
+padding-top:  10px;
+padding-bottom: 10px;
+padding-left: 10px;
+padding-right: 10px;
+border-radius: 10px;
+font-weight: 600;
+font-size: 13px;
+cursor: pointer;
+}
+.buynow-button{
+background-color: rgba(246, 161, 3, 0.939);
+border-color: rgb(253, 166, 5);
+border-style: solid;
+color: black;
+padding-top: 11px;
+padding-bottom: 11px;
+padding-left: 8px;
+padding-right: 8px;
+border-radius: 10px;
+font-weight: 600;
+font-size: 13px;
+cursor: pointer;
+margin-right: 8px;
+margin-left: 8px;
+}
+.moreabout-btn{
+color: black;
+background-color: orange;
+border: 1px solid orange;
+padding-top: 11px;
+padding-bottom: 11px;
+padding-left: 8px;
+padding-right: 8px;
+font-size: 15px;
+font-family: sans-serif;
+font-weight: 550;
+font-variant: normal;
+border-radius: 10px;
+cursor: pointer;
+margin-right: 10px;
+
+}
+.moreabout-btn:hover{
+box-shadow: 5px 5px 10px rgba(0,0,0,0.2);
+}
+.requestnow-btn{
+background-color: black;
+color: white;
+border-color: black;
+border: none;
+padding-top: 11px;
+padding-bottom: 11px;
+padding-left: 10px;
+padding-right: 10px;
+font-size: 15px;
+font-family: sans-serif;
+cursor: pointer;
+transition: background-color 0.15s,
+color 0.15s;
+margin-right: 8px;
+margin-left: 8px;
+
+}
+.requestnow-btn:active{
+opacity: 0.5;
+}
+.addtocart-btn{
+background-color: rgba(255, 255, 0, 0.805);
+color: black;
+border-color: yellow;
+border: 1px;
+border-radius: 12px;
+font-size: 15px;
+font-family: sans-serif;
+font-variant: normal;
+font-weight: 600;
+padding-top: 12px;
+padding-bottom: 12px;
+padding-left: 32px;
+padding-right: 32px;
+cursor: pointer;
+transition: background-color 0.2s;
+margin-right: 8px;
+margin-left: 8px;
+
+}
+.addtocart-btn:hover{
+
+background-color: rgba(218, 218, 9, 0.664);
+
+}
+.addtocart-btn:active{
+background-color: rgba(241, 241, 18, 0.739);
+}
+.signup-btn{
+background-color: rgba(5, 147, 5, 0.929);
+color: white;
+border-color: green;
+border: 1px;
+border-radius: 5px;
+font-size: 15px;
+font-family: sans-serif;
+padding-top: 11px;
+padding-bottom: 11px;
+padding-left: 15px;
+padding-right: 15px;
+font-weight: 550;
+cursor: pointer;
+transition: 0.15s;
+margin-bottom: 8px;
+margin-top: 8px;
+margin-right: 8px;
+
+}
+.signup-btn:hover{
+box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+}
+.signup-btn:active{
+opacity: 0.8;
+}
+.getstarted-btn{
+background-color: rgb(91, 14, 164);
+border-color: rgba(113, 10, 209, 0.935);
+border: 1px;
+border-radius: 2px;
+color: white;
+padding-top: 12px;
+padding-bottom: 12px;
+padding-right: 10px;
+padding-left: 10px;
+font-size: 15px;
+font-family: sans-serif;
+font-weight: 540;
+margin-right: 8px;
+margin-left: 8px;
+cursor: pointer;
+
+
+}
+.getstarted-btn:hover{
+background-color:rgb(79, 7, 147);
+}
+.download-btn{
+background-color: white;
+color: grey;
+border: 2px solid rgb(97, 96, 96);
+border-color: rgba(182, 173, 173, 0.529);
+border-radius: 5px;
+padding-top: 11px;
+padding-bottom: 11px;
+padding-right: 15px;
+padding-left: 15px;
+font-size: 15px;
+font-family: sans-serif;
+font-weight: 500;
+cursor: pointer;
+margin-right: 8px;
+margin-left: 8px;
+
+}
+.download-btn:hover{
+color: white;
+background-color: rgb(116, 113, 113);
+border: none;
+}
+.apply-btn{
+background-color:rgb(52, 52, 208);
+border-color: blue;
+border: none;
+border-radius: 15px;
+border-width: 50px;
+color: white;
+padding-top: 11px;
+padding-bottom: 11px;
+padding-right: 15px;
+padding-left: 15px;
+font-size: 15px;
+font-family: sans-serif;
+font-weight: 500;
+cursor: pointer;
+margin-right: 8px;
+margin-left: 8px;
+margin-top: 8px;
+
+}
+.apply-btn:hover{
+background-color: rgb(20, 20, 123);
+}
+.save-btn{
+background-color: white;
+border-color: blue;
+border: 1px solid rgb(45, 45, 236);
+border-radius: 15px;
+color: rgb(58, 58, 207);
+padding-top: 11px;
+padding-bottom: 11px;
+padding-right: 10px;
+padding-left: 10px;
+font-size: 15px;
+font-family: sans-serif;
+font-weight: 600;
+cursor: pointer;
+margin-right: 8px;
+margin-left: 8px;
+
+}
+.save-btn:hover{
+background-color: rgb(180, 180, 238);
+opacity: 0.7;
+}
+.save-btn:active{
+opacity: 0.7;
+}
+.stretch-btn{
+background-color: green;
+border: none;
+margin-top: 8px;
+padding-top: 12px;
+padding-bottom: 12px;
+padding-right: 12px;
+padding-left: 12px;
+color: white;
+font-size: 13px;
+font-family: sans-serif;
+cursor: pointer;
+
+}
+.stretch-btn:hover{
+padding: 20px;
+transition: 1s;
+}
+.back-btn{
+padding-top: 10px;
+padding-bottom: 10px;
+padding-right: 8px;
+padding-left: 8px;
+}
+.previous-btn{
+padding-top: 10px;
+padding-bottom: 10px;
+padding-right: 1px;
+padding-left: 1px;
+}
+.contain{
+vertical-align: bottom;
+
+}
+.shadow-btn{
+background-color: green;
+color: white;
+border: none;
+padding-top: 8px;
+padding-bottom: 8px;
+padding-right: 15px;
+padding-left: 15px;
+font-size: 15px;
+font-family: sans-serif;
+cursor: pointer;
+box-sizing: border-box;
+margin-left: 8px;
+}
+.shadow-btn:hover{
+box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+}
+.shadow-btn:active{
+box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+}
+.one-btn{
+background-color: green;
+color: white;
+border: none;
+margin-left: 8px;
+padding-top: 10px;
+padding-bottom: 10px;
+padding-left: 14px;
+padding-right: 14px;
+font-size: 13px;
+font-family: sans-serif;
+cursor: pointer;
+margin-right: 8px;
+
+}
+.one-btn:hover{
+padding-right: 20px;
+padding-left: 20px;
+transition: 0.2s;
+}
+.two-btn{
+background-color: green;
+color: white;
+border: none;
+margin-left: 8px;
+padding-top: 10px;
+padding-bottom: 10px;
+padding-left: 14px;
+padding-right: 14px;
+font-size: 13px;
+font-family: sans-serif;
+cursor: pointer;
+margin-right: 8px;
+
+}
+.two-btn:hover{
+padding-right: 20px;
+padding-left: 20px;
+transition: 0.2s;
+}
+.three-btn{
+background-color: green;
+color: white;
+border: none;
+margin-left: 8px;
+padding-top: 10px;
+padding-bottom: 10px;
+padding-left: 14px;
+padding-right: 14px;
+font-size: 13px;
+font-family: sans-serif;
+cursor: pointer;
+margin-right: 8px;
+
+}
+.three-btn:hover{
+padding-right: 20px;
+padding-left: 20px;
+transition: 0.2s;
+}

@@ -1,0 +1,18 @@
+.modelheading{
+  font-size: 30px;
+  font-family: Montserrat;
+  font-weight: 600;
+  text-align: center;
+  
+
+}
+.modeltext{
+  text-align: center;
+  width: 600;
+  font-family: Montserrat;
+  font-weight: 400;
+}
+.underlinetext{
+text-decoration: underline;
+font-weight: 400;
+}

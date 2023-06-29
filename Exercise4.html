@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exercise4 website</title>
+  <style>
+    .namebar,
+    .emailbar{
+        display: block;
+    }
+    .chatsbar{
+      width: 240px;
+      display: inline-block;
+      vertical-align: middle;
+      margin-left: 10px;
+    }
+    .yes-btn,
+    .no-btn{
+      vertical-align: middle;
+      margin-left: 8px;
+    }
+    .googlelogo{
+      width: 200px;
+      margin-left: 50%;
+    }
+    .googlesearchbox{
+      color: rgb(96,96,96);
+      padding-right: 120px;
+      padding-left: 15px;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      background-color: white;
+      border: none;
+      margin-left: 50%;
+      font-size: 14px;
+      font-family: Arial;
+      border-radius: 15px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.2);
+      margin-bottom: 20px;
+    }
+    .firstbar{
+      font-size: 12px;
+      font-family: Arial;
+      padding-right: 0;
+      padding-left: 0;
+      padding-top: 8px;
+      padding-bottom: 8px;
+      color: rgb(96,96,96);
+      border-radius: 8px;
+      margin-bottom: 8px;
+    }
+    .secondbar{
+      font-size: 12px;
+      font-family: Arial;
+      padding-right: 0;
+      padding-left: 0;
+      padding-top: 8px;
+      padding-bottom: 8px;
+      color: rgb(96,96,96);
+      border-radius: 8px;
+    }
+    .emailbar{
+      padding-left: 5px;
+      padding-right: 5px;
+      padding-top: 10px;
+      padding-bottom: 5px;
+      font-size: 12px;
+      font-family: Arial;
+      color: rgb(96,96,96);
+      border-radius: 5px;
+      width: 25%;
+      margin-bottom: 10px;
+    }
+    .signup-btn{
+      background-color: rgb(57, 57, 216);
+      border: none;
+      color: white;
+      padding-right: 10%;
+      padding-left: 10%;
+      padding-top: 12px;
+      padding-bottom: 12px;
+      border-radius: 10px;
+      font-size: 15px;
+      font-family: Arial;
+      font-weight: bold;
+      cursor: pointer;
+      margin-bottom: 10px;
+    }
+    .signup-btn:hover{
+      background-color: rgb(64, 64, 197);
+    }
+    .signup-btn:active{
+      opacity: 0.9;
+    }
+    .pickupbar{
+      font-size: 12px;
+      font-family: Arial;
+      padding-top: 12px;
+      padding-bottom: 12px;
+      padding-left: 10px;
+      padding-right: 10%;
+      background-color: rgb(228, 225, 225);
+      border: none;
+      display: block;
+      margin-bottom: 8px;
+    }
+    .Destinationbar{
+      font-size: 12px;
+      font-family: Arial;
+      padding-top: 12px;
+      padding-bottom: 12px;
+      padding-left: 10px;
+      padding-right: 10%;
+      background-color: rgb(228, 225, 225);
+      border: none;
+      display: block;
+      margin-bottom: 8px;
+    }
+    .pickupbar,
+    .Destinationbar:active{
+      border-color: none;
+    }
+    .requestnow-btn{
+      background-color: black;
+      color: white;
+      padding-top: 12px;
+      padding-bottom: 12px;
+      padding-right: 10px;
+      padding-left: 10px;
+      margin-right: 8px;
+      font-size: 13px;
+      font-family: Arial;
+      cursor: pointer;
+      margin-bottom: 10px;
+    }
+    .requestnow-btn:hover{
+      background-color: rgb(44, 43, 43);
+    }
+    .requestnow-btn:active{
+      opacity: 0.9;
+    }
+    .schedule-btn{
+      font-size: 14px;
+      font-family: Arial;
+      background-color: rgb(199, 193, 193);
+      border: none;
+      padding-top: 12px;
+      padding-bottom: 12px;
+      padding-right: 10px;
+      padding-left: 10px;
+      font-weight: 550;
+      cursor: pointer;
+    }
+    .schedule-btn:hover{
+      background-color: rgb(196, 186, 186);
+    }
+    .schedule-btn:active{
+      opacity: 0.9;
+    }
+    .requesttext{
+      font-size: 25px;
+      font-family: Arial;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <input class="namebar" type="text" placeholder="Name"><br>
+  <input class="emailbar" type="text" placeholder="Email">
+
+  <p class="chatsbar">
+    Thanks for chatting with our customer support. 
+    Would you like to take our quick survey?
+  </p>
+  <button class="yes-btn">Yes</button>
+  <button class="no-btn">No</button><br>
+  <img class="googlelogo" src="LOGO/Googlelogo.png" alt="">
+  <input class="googlesearchbox" type="text" placeholder="Search Google or type URL"><br>
+  <input class="firstbar" type="text" placeholder="First name">
+  <input class="secondbar" type="text" placeholder="First name">
+  <input class="emailbar" type="text" placeholder="Email">
+  <button class="signup-btn">Sign Up</button>
+  <p class="requesttext">
+    Request a ride now
+  </p>
+  <input class="pickupbar" type="text" placeholder="Enter pickup location">
+  <input class="Destinationbar" type="text" placeholder="Enter destination">
+  <button class="requestnow-btn">Request now</button>
+  <button class="schedule-btn">Schedule for later</button>
+</body>
+</html>

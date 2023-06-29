@@ -1,0 +1,166 @@
+.Tahoma{
+  font-size: 15px;
+  font-family: Tahoma;
+  font-weight: 600;
+}
+.Arial-text{
+  font-size: 15px;
+  font-family: Arial;
+  font-weight: 800;
+}
+.italic-text{
+  font-size: 14px;
+  font-family: Arial;
+ font-style: italic;
+ color: red;
+}
+.Html-text{
+  font-size: 15px;
+  font-family: verdana;
+  font-weight: 600;
+}
+.beginnerpro{
+  font-size: 13px;
+  font-family: verdana;
+  color: rgb(96,96,96);
+}
+.verdana{
+  font-size: 15px;
+  font-family: verdana;
+  font-weight: 550;
+  width: 300;
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+.getstarted{
+  background-color: rgb(11, 100, 11);
+  border: none;
+  color: white;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-right: 20px;
+  padding-left: 20px;
+  border-radius: 8px;
+  font-size: 15px;
+  font-family: verdana;
+  font-weight: 500;
+  cursor: pointer;
+  margin-top: 10px;
+  
+}
+.getstarted:hover{
+  background-color: rgb(35, 88, 35);
+}
+.getstarted:active{
+  opacity: 0.9;
+}
+.arialfont{
+  font-size: 20px;
+  font-family: Arial;
+  font-weight: 600;
+  text-align: center;
+}
+.appletext{
+  font-size: 14px;
+  font-family: Arial;
+  font-weight: 600;
+  text-align: center;
+  
+}
+.learnmore{
+  font-size: 14px;
+  font-family: Arial;
+  color: rgb(90, 90, 243);
+  text-align: center;
+}
+.new-text{
+  color: rgb(255, 166, 0);
+  font-size: 14px;
+  font-weight: 550;
+  text-align: center;
+}
+.appleproduct{
+  font-size: 14px;
+  font-family: Arial;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.macText{
+  font-size: 25px;
+  font-family: Arial;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+.prizetag{
+  font-size: 14px;
+  font-family: Arial;
+  text-align: center;
+}
+.buy-btn{
+  background-color: rgb(15, 15, 170);
+  border: none;
+  color: white;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  padding-right: 16px;
+  padding-left: 16px;
+  border-radius: 15px;
+  font-weight: 500;
+  margin-left: 190px;
+}
+.num{
+  font-size: 20px;
+  font-family: Arial;
+  font-weight: 600;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.dollarsign{
+  font-size: 10px;
+  color: rgb(96,96,96);
+  font-family: Arial;
+  margin-bottom: 0;
+}
+.percentagerate{
+  color: green;
+  font-size: 12px;
+  font-family: Arial;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+.time{
+  color: rgb(96,96,96);
+  font-size: 13px;
+  font-family: Arial;
+  font-weight: bold;
+}
+.figures{
+  color: rgb(240, 15, 15);
+}
+.freecodeorg{
+  font-size: 15px;
+  font-family: Arial;
+  font-weight: bold;
+}
+.freecodeCamp{
+  color: rgb(177, 171, 171);
+  font-weight: bold;
+}
+.textfreeCodeCamp{
+  font-size: 14px;
+  font-family: Arial;
+  font-weight: bold;
+  width: 460;
+}
+.freecode-text{
+  font-size: 14px;
+  font-family: Arial;
+  font-weight: bold;
+}
+.character{
+  color: rgb(85, 177, 207);
+}

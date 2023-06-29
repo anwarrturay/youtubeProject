@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+      <title>Positioning7</title>
+      <style>
+        .shirts-container{
+          position: relative;
+        }
+        .shirts-image{
+          position: absolute;
+          background-color: grey;
+          top: 50px;
+          padding: 70px 30px 30px 30px;
+          margin-left: 30px;
+        }
+        .shirts-description{
+          position: absolute;
+          background-color: black;
+          color: rgb(199, 197, 197);
+          top: 10px;
+          right: 0px;
+          font-size: 12px;
+          font-family: Arial;
+          padding-right: 8px;
+          padding-left: 8px;
+          padding-top: 6px;
+          padding-bottom: 6px;
+          border-radius: 3px;
+        }
+        .polo-container{
+          z-index: 100;
+        }
+        .polo-pic{
+          width: 180px;
+          height: 200px;
+        }
+        /* .overflow{
+          position: absolute;
+          background-color: rgb(221, 221, 221) ;
+          top: 220px;
+          bottom: 0px;
+          left: 0px;
+          right: 0px;
+          
+        } */
+        .add-to-cart-btn{
+          background-color: rgb(221,221,221);
+          position: absolute;
+          left: 0px;
+          right: 0px;
+          bottom: 0px;
+          top: 220px;
+          opacity: 0.7;
+        }
+        .addtocart-btn{
+          position: absolute;
+          bottom: 30px;
+          left: 70px;
+          background-color: rgb(255, 255, 255);
+          padding: 6px 10px;
+          font-size: 14px;
+          font-family: Roboto,Arial;
+          font-weight: 550;
+          cursor: pointer;
+        }
+        .first-shirt-container{
+          background-color: grey;
+          width: 250px;
+          position: relative;
+        }
+        .image-container{
+          margin-left: 30px;
+          
+        }
+        .polo-image{
+          margin-top: 50px;
+          margin-bottom: 0px;
+          
+        }
+        .btn-container{
+          margin-left: 80px;
+        }
+        .btn-btn{
+          background-color: black;
+          color: rgb(231, 230, 230);
+          padding: 10px 5px 10px 5px;
+          border: none;
+          margin-bottom: 20px;
+          cursor: pointer;
+        }
+        .first-shirt-description{
+          position: absolute;
+          top: 12px;
+          left: 180px;
+          background-color: black;
+          color: rgb(238, 231, 231);
+          font-size: 12px;
+          font-family: Arial;
+          padding: 5px 5px ;
+        }
+        .preview-container{
+          display: flex;
+          flex-direction: row;
+        }
+        .buynow-btn{
+          position: absolute;
+          bottom: 220px;
+          left: 80px;
+          top: ;
+        }
+        .buy-now-btn{
+          background-color: grey;
+          border: none;
+          padding: 8px 20px 8px 20px;
+          color: white;
+          border-radius: 5px;
+          font-size: 14px;
+          font-family: Arial;
+          cursor: pointer;
+        }
+        .buy-now-btn:hover{
+          background-color: rgb(117, 115, 115);
+        }
+        .buy-now-btn:active{
+          background-color: rgb(148, 148, 148);
+          opacity: 0.9;
+        }
+
+        @media(min-width:500px) and (max-width:620px){
+            .buynow-btn{
+              position: absolute;
+              top: 390px;
+            }
+            .shirts-container{
+              position: absolute;
+              left: 270px;
+              right: 350px;
+              width: 50px;
+            }
+        }
+        @media(min-width: 621px) and (max-width: 720px){
+          .buynow-btn{
+            position: absolute;
+            top: 390px;
+          }
+        }
+        @media(min-width: 721px) and (max-width: 820px){
+          .buynow-btn{
+            position: absolute;
+            top: 390px;
+          }
+        }
+        @media(min-width: 821px) and (max-width: 920px){
+          .buynow-btn{
+            position: absolute;
+            top: 390px;
+          }
+        }       
+      </style>
+  </head>
+  <body>
+    <div class="preview-container">
+      <!-- <div class="first-shirt-container">
+        <div class="shirts-details-container">
+          <div class="image-container">
+            <img class="polo-image" src="shirts-pictures/images.png" alt="">
+          </div>
+            <div class="btn-container">
+              <button class="btn-btn">Add to Cart</button>
+            </div>
+          <div class="first-shirt-description">
+            20% OFF
+          </div>
+        </div>
+      </div> -->
+
+
+      <div  class="shirts-container">
+        <div class="shirts-image">
+          <div class="polo-container">
+            <img class="polo-pic" src="shirts-pictures/downloadWithoutbackground.png" alt="">
+          </div>
+          
+          <!-- <div class="overflow">
+            <button class="addtocart-btn">
+              Add to Cart
+            </button>
+          </div> -->
+          <div>
+            <div class="add-to-cart-btn">
+              <button >Add to Cart</button>
+            </div>
+          </div>
+          <div class="shirts-description">
+            20% OFF
+          </div>
+        </div>
+      </div>
+  </div>
+  </body>
+</html>

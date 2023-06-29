@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exercise8 practice</title>
+  <style>
+    .info-review{
+      border: 1px;
+      width: 300px;
+      border-radius: 5px;
+      box-shadow: 0 5px 5px rgba(0,0,0,0.2);
+      margin-bottom: 35px;
+      margin-top: 100px;
+    }
+    .home-click,
+    .notifications-click,
+    .messages-click{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      margin: 8px 8px;
+      line-height: 0;
+    }
+    .home-btn,
+    .notifications-btn,
+    .message-btn{
+      background-color: rgb(16, 16, 241);
+      border: none;
+      color: white;
+      padding: 5px 11px;
+      border-radius: 15px;
+      font-size: 13px;
+      font-family: Roboto,Arial;
+      font-weight: 500;
+      cursor: pointer;
+    }
+    .home-text,
+    .notification-profile,
+    .message-text{
+      font-size: 14px;
+      font-family: Roboto,Arial;
+      font-weight: 500;
+    }
+    .cat-info-flexbox{
+      width: 300px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 30px;
+    }
+    .cat-pic{
+      width: 90px;
+      border-radius: 200%;
+    }
+    .cat-info{
+      width: 80px;
+      line-height: 10px;
+      margin-right: 60px;
+      margin-left: 10px;
+    }
+    .cat-name{
+      margin-top: 8px;
+      line-height: 0px;
+      font-size: 14px;
+      font-family: Roboto, Arial;
+      font-weight: bold;
+    }
+    .cat-text{
+      line-height: 14px;
+      font-size: 13px;
+      font-family: Roboto, Arial;
+      color: rgb(96,96,96);
+      width: 85px;
+      
+    }
+    .follow-btn{
+      background-color: rgb(8, 8, 248);
+      border: none;
+      padding: 10px 20px;
+      color: white;
+      font-family: Roboto, Arial;
+      font-weight: bold;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    .follow-btn:hover{
+      background-color: rgb(21, 21, 202)
+    }
+    .follow-btn:active{
+      opacity: 0.9;
+    }
+    .container{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      background-color:  rgb(133, 68, 177);
+    }
+    .Home-section{
+      margin-left: 8px;
+      color: white;
+      margin-bottom: 5px;
+      width: 200px;
+    }
+    .home-text{
+      font-size: 13px;
+      font-family: Roboto,Arial;
+      font-weight: bold;
+      cursor: pointer;
+    }
+    .search-section{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      flex: 1;
+      margin-bottom: 5px;
+      margin-top: 5px;
+      max-width: 500px;
+    }
+    .searchbar{
+      width: 500px;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      padding-right: 80px;
+      padding-left: 20px;
+      margin-left: 35%;
+      border: none;
+      border-radius: 12px;
+      color: rgb(96,96,96);
+      font-size: 14px;
+      font-family: Roboto,Arial;
+      box-shadow: 0 5px 5px rgba(0,0,0,0.2);
+    }
+    .download-section{
+      width: 200px;
+      margin-left: 400px;
+      margin-right: 5px;
+      margin-top: 5px;
+      margin-bottom: 5px;
+    }
+    .download-btn{
+      background-color: rgb(137, 63, 190);
+      color: white;
+      border: 1px solid white;
+      border-radius: 3px;
+      padding-top: 8px;
+      padding-bottom: 7px;
+      padding-left: 12px;
+      padding-right: 12px;
+      margin-right: 4px;
+      font-size: 13px;
+      font-family: Roboto,Arial;
+      cursor: pointer;
+    }
+    .download-btn:hover{
+      color: black;
+      background-color: white;
+    }
+    .download-btn:active{
+      opacity: 0.9;
+      color: black;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+      <div class="Home-section">
+        <p class="home-text">Home</p>
+      </div>
+      <div class="search-section">
+        <input class="searchbar" type="text" placeholder="search" aria-expanded="true">
+      </div>
+      <div class="download-section">
+        <button class="download-btn">Download</button>
+      </div>
+  </div>
+
+
+  
+<div class="info-review">
+  <div class="home-click">
+    <p class="home-text">Home</p><button class="home-btn">14</button>
+  </div>
+  <div class="notifications-click">
+    <p class="notification-profile">Notifications</p>
+    <button class="notifications-btn">3</button>
+  </div>
+  <div class="messages-click">
+    <p class="message-text">Messages</p><button class="message-btn">5</button>
+  </div>
+</div>
+
+<div class="cat-info-flexbox">
+  <div class="cat-thumbnail">
+    <img class="cat-pic" src="thumbnails/download (2).jfif" alt="">
+  </div>
+  <div class="cat-info">
+    <p class="cat-name">Oliver</p>
+    <p class="cat-text">the cat popular</p>
+  </div>
+  <div class="btn">
+    <button class="follow-btn">Follow</button>
+  </div>
+</div>
+
+<div class="cat-info-flexbox">
+  <div class="cat-thumbnail">
+    <img class="cat-pic" src="thumbnails/download (1).jfif" alt="">
+  </div>
+  <div class="cat-info">
+    <p class="cat-name">Rex</p>
+    <p class="cat-text">sleepy cat popular</p>
+  </div>
+  <div class="btn">
+    <button class="follow-btn">Follow</button>
+  </div>
+</div>
+
+<div class="cat-info-flexbox">
+  <div class="cat-thumbnail">
+    <img class="cat-pic" src="thumbnails/download.jfif" alt="">
+  </div>
+  <div class="cat-info">
+    <p class="cat-name">Mimi</p>
+    <p class="cat-text">Happy Buildog popular</p>
+  </div>
+  <div class="btn">
+    <button class="follow-btn">Follow</button>
+  </div>
+</div>
+
+
+
+
+
+
+  <!-- <div style="
+    display: flex;
+    flex-direction: row;
+    ">
+    <div style="background-color: lightblue; width: 200px;">200px</div>
+    <div style="background-color: pink; width: 75px;">75px</div>
+  </div>
+
+  <div style="
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    ">
+    <div style="background-color: lightblue; width: 50px;">item1</div>
+    <div style="background-color: pink; flex: 1;">item2</div>
+    <div style="background-color: lightblue; width: 75px;">item3</div>
+  </div>
+
+  <div style="
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    border: 2px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(96,96,96);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    ">
+    <div style="background-color: pink; ">
+      item1
+    </div>
+    <div style="background-color: pink; ">
+      item2
+    </div>
+    <div style="background-color: pink; ">
+      item3
+    </div>
+    <div style="background-color: pink; ">
+      item4
+    </div>
+  </div>
+
+  <div style="
+   margin-top: 30px;
+   display: flex;
+   border: 1px solid rgb(96,96,96);
+   height: 50px;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+
+  ">
+    <div style="background-color: pink;">item1</div>
+    <div style="background-color: pink;">item2</div>
+  </div> -->
+
+</body>
+</html>

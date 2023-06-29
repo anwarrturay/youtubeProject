@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS position6</title>
+  <style>
+    .surface-close-button{
+      position: relative;
+    }
+    .inner-close-btn{
+      position: absolute;
+      background-color: black;
+      color: white;
+      font-size: 13px;
+      font-family: Arial;
+      font-weight: 500;
+      top: -11px;
+      left: -14px;
+      padding-left: 15px;
+      padding-right: 15px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      border-radius: 200%;
+      cursor: pointer;
+    }
+    .grey-box{
+      position: fixed;
+      background-color: grey;
+      right: 20px;
+      bottom: 0px;
+      width: 320px;
+      height: 180px;
+      margin-bottom: 20px;
+
+    }
+    .video-time{
+      position: absolute;
+      background-color: black;
+      color: rgb(194, 194, 194);
+      bottom: 5px;
+      right: 5px;
+      padding-top: 2px;
+      padding-bottom: 2px;
+      padding-right: 4px;
+      padding-left: 4px;
+      font-size: 12px;
+      font-family: Arial;
+      border-radius: 2px;
+    }
+  </style>
+</head>
+<body style="height: 3000px;">
+  <div class="surface-close-button">
+    <div class="inner-close-btn">
+      X
+    </div>
+  </div>
+
+    <div class="grey-box">
+      <div class="inner-close-btn">
+        X
+      </div>
+      <div class="video-time">
+        0:29
+      </div>
+    </div>
+</body>
+</html>

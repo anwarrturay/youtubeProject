@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    p{
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+    .picture-preview{
+      display: inline-block;
+      width: 500px;
+      margin-top: 20px;
+      background-color: whitesmoke;
+      width: 350px;
+      margin-left: 35px;
+      margin-bottom: 35px;
+    }
+    .Oliver-picture{
+      width: 80px;
+      margin-top: 20px;
+      margin-left: 10px;
+      border-radius: 200%;
+    
+    }
+    .cat-info{
+      display: inline-block;
+      margin-left: 10px;
+      margin-right: 15px;
+      vertical-align: top;
+      margin-top: 25px;
+      font-family: Arial;
+    
+      
+    }
+    .btn{
+      display: inline-block;
+      vertical-align: middle;
+      margin-bottom: 30px;
+
+    }
+    .cat-profile{
+      line-height: 6px;
+      font-size: 15px;
+      font-weight: bold;
+      margin-bottom: 8px;
+    }
+    .oliver-info{
+      margin-top: 1px;
+      margin-right: 30px;
+      font-size: 13px;
+      color: rgb(96, 96, 96);
+    }
+    .follow-btn{
+      background-color: rgb(84, 84, 245);
+      border: none;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      padding-right: 28px;
+      padding-left: 28px;
+      color: white;
+      font-family: Arial;
+      font-size: 12px;
+      font-weight: bold;
+      border-radius: 5px;
+      cursor: pointer;
+      margin-left: 35px;
+
+    }
+    .follow-btn:hover{
+      background-color: blue;
+    }
+    .follow-btn:active{
+      opacity: 0.98;
+    }
+    .mimi-preview{
+      padding-top: 12px;
+      padding-right: 10px;
+      margin-right: 30px;
+      background-color: whitesmoke;
+      margin-left: 35px;
+      width: 330px;
+      padding-left: 12px;
+      margin-bottom: 35px;
+    }
+    .mimi-picture{
+      width: 90px;
+      border-radius: 200%;
+    }
+    .mimi-info{
+      display: inline-block;
+      margin-left: 12px;
+    }
+    .mimi-button{
+      display: inline-block;
+      margin-bottom: 30px;
+      vertical-align: middle;
+      margin-left: 35px;
+    }
+    .mimi-btn{
+      margin-left: 10px;
+      background-color: rgb(67, 67, 253);
+      border: none;
+      color: white;
+      padding: 10px 30px;
+      font-size: 13px;
+      font-family: Arial;
+      font-weight: bold;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    .mimi-btn:hover{
+      background-color: blue;
+    }
+    .mimi-btn:active{
+      opacity: 0.98;
+    }
+    .mimi-profile{
+      font-size: 15px;
+      font-weight: bold;
+      font-family: Arial;
+    }
+    .mimi-text,
+    .cat-stats{
+      font-size: 13px;
+      font-family: Arial;
+      margin-top: 4px;
+      color: rgb(96,96,96);
+    }
+    .Rex-preview{
+      border: 1px solid rgb(96,96,96);
+      width: 180px;
+      border-radius: 5px;
+    }
+    .Rex-thumbnail{
+      width: 180px;
+      height: 160px;
+    }
+    .Rex-info{
+      display: inline-block;
+    }
+    .Rex-picture{
+      width: 30px;
+      border-radius: 200%;
+      margin-top: 8px;
+      vertical-align: bottom;
+      margin-left: 5px;
+    }
+    .Rex-profile{
+      font-size: 14px;
+      font-family: Arial;
+      font-weight: bold;
+      margin-bottom: 4px;
+      margin-left: 5px;
+    }
+    .Rex-stats{
+      display: inline-block;
+      font-family: Arial;
+      font-size: 13px;
+    }
+    .Rex-info{
+      margin-bottom: 10px;
+    }
+    .Rex-btn{
+      margin-bottom: 10px;
+      margin-left: 5px;
+    }
+    .addfriend-btn{
+      background-color: blue;
+      border: none;
+      color: white;
+      padding: 10px 14px;
+      border-radius: 5px;
+      font-size: 13px;
+      font-family: Arial;
+      font-weight: bold;
+      cursor: pointer;
+    }
+    .addfriend-btn:hover{
+      background-color: rgb(20, 20, 231);
+    }
+    .addfriend-btn:active{
+      opacity: 0.9;
+    }
+  </style>
+</head>
+<body>
+  <div class="picture-preview">
+    <div class="thumbnail-row">
+      <img class="Oliver-picture" src="thumbnails/download (1).jfif" alt="">
+    
+      <div class="cat-info">
+        <p class="cat-profile">Oliver</p>
+        <p class="oliver-info">the cat<br> popular</p>
+      </div>
+      <div class="btn">
+        <button class="follow-btn">Follow</button>
+      </div>
+    </div>
+  </div>
+  <div class="mimi-preview">
+    <div class="mimi-thumbnail">
+      <img class="mimi-picture" src="thumbnails/download (2).jfif" alt="">
+      <div class="mimi-info">
+        <p class="mimi-profile">Mimi</p>
+        <p class="mimi-text">Sleepy Cat</p>
+        <p class="cat-stats">popular</p>
+      </div>
+      <div class="mimi-button"> 
+        <button class="mimi-btn">Follow</button>
+      </div>
+    </div>
+  </div>
+  <div class="Rex-preview">
+    <div class="Rex-thumbnailrow">
+      <img class="Rex-thumbnail" src="thumbnails/download.jfif" alt="">
+      <div>
+        <p class="Rex-profile">Rex</p>
+        <div class="Rex-info">
+          <img class="Rex-picture" src="thumbnails/images.jfif" alt="">
+          <p class="Rex-stats">4 mutual Friends</p>
+        </div>
+        <div class="Rex-btn">
+          <button class="addfriend-btn">Add Friend</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

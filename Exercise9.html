@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exercise9</title>
+  <style>
+    .inboxes-view{
+      border-width: 1px;
+      width: 360px;
+      border: none;
+      box-shadow: 0 5px 5px rgba(0,0,0,0.2);
+      border-radius: 5px;
+      cursor: pointer;
+      margin-top: 35px;
+    }
+    .inboxes-view:hover{
+      box-shadow: 0 8px 8px rgba(0,0,0,0.2);
+    }
+    .inbox-content{
+      margin-top: 10px;
+      margin-left: 10px;
+      font-size: 13px;
+      font-family: Roboto,Arial;
+      color: rgb(151, 147, 147);
+    }
+    .inbox-text{
+      margin-top: 10px;
+    }
+    .cat-thumbnail{
+      display: flex;
+      flex-direction: row;
+      align-items: start;
+
+    }
+    .cat-pic{
+      width: 50px;
+      border-radius: 200%;
+      margin-top: 20px;
+      margin-left: 10px;
+    }
+    .Gmail-info{
+      display: flex;
+      flex-direction: row;
+    }
+    .gmail-text{
+      margin-left: 8px;
+    }
+    .title{
+      width: 230px;
+      font-size: 14px;
+      font-family: Roboto,Arial;
+      font-weight: bold;
+      line-height: 18px;
+    }
+    .profile{
+      width: 350px;
+      font-size: 13px;
+      font-family: Roboto,Arial;
+      line-height: 0;
+      color: rgb(114, 112, 112);
+      margin-bottom: 25px;
+    }
+    .message-time{
+      margin-left: -120px;
+      font-size: 13px;
+      font-family: Roboto,Arial;
+      color: rgb(133, 133, 133);
+    }
+    /* SECOND PROJECT CSS */
+    .user-profile{
+      display: flex;
+      flex-direction: row;
+    }
+    .User-info{
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+    .User-picture{
+      width: 65px;
+      margin-top: 20px;
+      border-radius: 200%;
+    }
+
+    .User-title{
+      margin-top: 30px;
+      margin-left: 8px;
+      font-size: 13px;
+      font-family: Roboto,Arial;
+      font-weight: bold;
+      line-height: 0;
+    }
+    .UserTwitter-name{
+      font-size: 14px;
+      font-family: Roboto,Arial;
+      color: rgb(90, 90, 90);
+      font-weight: 500;
+    }
+    .supersimpledev-content{
+      width: 320px;
+      margin-left: 8px;
+      line-height: 16px;
+      margin-bottom: 40px;
+      font-size: 14px;
+      font-family: Roboto,Arial;
+      
+    }
+    /* THIRD SECTION CSS */
+
+    .overview-supersimpledev{
+      width: 330px;
+      display: flex;
+      flex-direction: row;
+      border: 1px solid rgb(96,96,96);
+      border-radius: 10px;
+      margin-left: 40px;
+    }
+    .first-part{
+      background-color: rgba(131, 131, 131, 0.664);
+      padding-right: 100px;
+      border-radius: 1px;
+    }
+    .supersimple-backend-link{
+      background-color: white;
+      padding-left: 10px;
+      border-radius: 0px;
+    }
+    .supersimpledev-link{
+      color: black;
+      font-size: 14px;
+      font-family: Roboto,Arial;
+      font-weight: 500;
+    }
+    .youtube-link{
+      font-size: 13px;
+      font-family: Roboto,Arial;
+      font-weight: 500;
+      color: rgb(109, 109, 109);
+      line-height: 0;
+      margin-top: 18px;
+    }
+  </style>
+</head>
+<body>
+
+<div class="user-profile">
+  <div class="User-thumbnail">
+    <img class="User-picture" src="thumbnails/download.jfif" alt="">
+  </div>
+  <div>
+    <div class="User-info">
+      <p class="User-title">supersimple.dev 
+        <span class="UserTwitter-name">@SuperSimpleDev</span>
+      </p>
+    </div>
+    <div class="supersimpledev-context">
+      <p class="supersimpledev-content">what is backend web development? A complete overview. New video is up!</p>
+    </div>
+  </div>
+</div>
+
+
+  <div class="overview-supersimpledev">
+    <div class="first-part">
+    
+    </div>
+    <div class="supersimple-backend-link">
+      <p class="youtube-link">youtube.com</p>
+      <p class="supersimpledev-link">Backend web development - a complete overview (2021)</p>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="inboxes-view">
+  <div class="inboxes-info">
+    <div class="inbox-text">
+      <p class="inbox-content">ALL INBOXES</p>
+    </div>
+    <div class="Gmail-info">
+        <div class="cat-thumbnail">
+          <img class="cat-pic" src="thumbnails/images.jfif" alt="">
+        </div>
+        <div class="gmail-text">
+          <p class="title">Chewy Promotions <br> Biggest sales of the year!</p>
+          <p class="profile">Hey there! we're writing to tell you about our...</p>
+        </div>
+        <div class="message-container">
+          <p class="message-time">4:58 PM</p>
+        </div>
+    </div>
+  </div>
+  <div class="inboxes-info">
+    <div class="Gmail-info">
+        <div class="cat-thumbnail">
+          <img class="cat-pic" src="thumbnails/download (2).jfif" alt="">
+        </div>
+        <div class="gmail-text">
+          <p class="title">Best Buy <br>Your Best Buy eReceipt</p>
+          <p class="profile">Thank you for shopping at Best Buy, here is...</p>
+        </div>
+        <div class="message-container">
+          <p class="message-time">12:32 PM</p>
+        </div>
+    </div>
+  </div>
+  <div class="inboxes-info">
+    <div class="Gmail-info">
+        <div class="cat-thumbnail">
+          <img class="cat-pic" src="thumbnails/download.jfif" alt="">
+        </div>
+        <div class="gmail-text">
+          <p class="title">Netflix <br> Here's what's coming soon to Netflix</p>
+          <p class="profile">Brand new movies and shows, old favourites...</p>
+        </div>
+        <div class="message-container">
+          <p class="message-time">9:00 AM</p>
+        </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+  <!-- <div style="
+    display: flex;
+    flex-direction: row;
+    ">
+    <div style="background-color: pink;
+       width: 100px;
+       padding-bottom: 10px;
+       display: flex;
+       flex-direction: row;
+       ">
+      <p>item1</p>
+    </div>
+    <div style="background-color: lightblue; width: 200px;">
+      
+    </div>
+  </div>
+  <div style="
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+  ">
+    <div style="background-color: pink; width: 100px;
+    ">
+    </div>
+      <div style="background-color: lightblue; width: 100px;">
+        <div>row1</div>
+        <div>row2</div>
+      </div>
+      <div style="background-color: lightblue; width: 100px;
+        display: flex;
+        flex-direction: row;
+        justify-content: end;
+        align-items: end;
+       
+      ">
+        <div>row3</div>
+      </div>
+  </div> -->
+</body>
+</html>

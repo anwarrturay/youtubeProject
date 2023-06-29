@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<style>
+  .squarebox{
+    background-color: red;
+    width: 100px;
+    display: inline-block;
+    padding-top: 80px;
+    margin-bottom: 15px;
+  }
+  .catpic{
+    width: 150px;
+    background-color: green;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-radius: 200%;
+    margin-bottom: 15px;
+  }
+  .container{
+    border: 2px solid rgb(96, 96, 96);
+    padding-left: 8px;
+    padding-bottom: 8px;
+    width: 200px;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: Arial;
+  }
+  .containtext{
+    background-color: black;
+    width: 280px;
+    display:block;
+    padding-bottom: 8px;
+    padding-left: 8px;
+    padding-top: 5px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    
+  }
+  .firsttext{
+    font-size: 20px;
+    color: white;
+    font-family: Arial;
+    font-weight: bold;
+}
+.innertext{
+  color: rgb(201, 193, 193);
+  font-size: 13px;
+  font-family: Arial;
+}
+.card{
+  border: 1px solid rgb(96, 96, 96);
+  width: 172px;
+  display: inline-block;
+  border-radius: 5px;
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+}
+.card-body{
+  width: 300px;
+}
+.cardimg{
+  width: 171px;
+  cursor: pointer;
+}
+.cardimg:hover{
+  width: 172px;
+  box-shadow: 0 5px 5px rgba(0,0,0,0.2);
+}
+.cardtext-oliver{
+  font-size: 15px;
+  font-family: Arial;
+  font-weight: bold;
+  margin-left: 5px;
+  margin-bottom: 10px;
+}
+.card-text{
+  font-size: 13px;
+  font-family: Arial;
+  margin-left: 5px;
+}
+.card-btn{
+  background-color: rgb(40, 40, 226);
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-right: 15px;
+  padding-left: 15px;
+  border: none;
+  color: white;
+  margin-left: 5px;
+  margin-bottom: 8px;
+  border-radius: 6px;
+  font-size: 14px;
+  font-family: Arial;
+  cursor: pointer;
+}
+.card-btn:hover{
+  background-color:  rgb(36, 36, 173);
+}
+.card-btn:active{
+  opacity: 0.9;
+}
+.cardtext-Huraira{
+  font-size: 15px;
+  font-family: Arial;
+  font-weight: bold;
+  margin-left: 5px;
+  margin-bottom: 10px;
+}
+.cardtext-lily{
+  font-size: 15px;
+  font-family: Arial;
+  font-weight: bold;
+  margin-left: 5px;
+  margin-bottom: 10px;
+}
+.cardlily-img{
+  width: 170px;
+  height: 105px;
+}
+.cardlily-img:hover{
+  width: 172px;
+  box-shadow: 0 5px 5px rgba(0,0,0,0.2);
+}
+.entirecardbody{
+  border: 1px solid rgb(96,96,96);
+  background-color: whitesmoke;
+  width: 600px;
+  display: inline-block;
+}
+.googlelogo{
+  width: 180px;
+  margin-left: 44%;
+}
+.googletextbox{
+  border: none;
+  border-radius: 15px;
+  width: 280px;
+  color: rgb(96,96,96);
+  font-size: 14px;
+  font-family: Arial;
+  font-weight: 500;
+  margin-left: 40%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 5%;
+  padding-left: 20px;
+  box-shadow: 0 5px 5px rgba(0,0,0,0.2);
+  margin-bottom: 30px;
+}
+.googlebuttons{
+  margin-left: 290px;
+}
+.search-btn{
+  background-color: rgb(231, 227, 227);
+  border: none;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-right: 8px;
+  font-size: 14px;
+  font-family: Arial;
+  font-weight: 550;
+  cursor: pointer;
+}
+.search-btn:hover{
+  background-color: rgb(199, 195, 195);
+}
+.search-btn:active{
+  opacity: 0.9;
+}
+.feel-btn{
+  background-color: rgb(231, 227, 227);
+  border: none;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-right: 8px;
+  font-size: 14px;
+  font-family: Arial;
+  font-weight: 550;
+  cursor: pointer;
+}
+.feel-btn:hover{
+ background-color: rgb(199, 195, 195);
+}
+.feel-btn:active{
+  opacity: 0.9;
+}
+</style>
+<body>
+  <div class="squarebox">
+    <div>
+      <button></button>
+    </div>
+  </div>
+  <div class="catpic">
+    <button></button>
+  </div>
+  <div class="container">
+    
+      <p>Satisfied with our service?</p>
+      <button>Yes</button>
+      <button>No</button>
+  </div>
+  <div class="containtext">
+    <div class="firsttext">
+      <p>Install YouTube Music</p>
+    </div>
+    <div class="innertext">
+      And Youtube Music to your desktop for quick and easy access
+    </div>
+  </div>
+  <div class="entirecardbody">
+    <div class="card">
+      <div class="card-body">
+          <img class="cardimg" src="thumbnails/Cat_August_2010-4.jpg" alt="" >
+          <p class="cardtext-oliver">Oliver</p>
+          <p class="card-text">2 mutual Friends</p>
+          <button  class="card-btn">Add Friend</button>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-body">
+          <img class="cardimg" src="thumbnails/cat-2083492__340.jpg" alt="" >
+          <p class="cardtext-Huraira">Huraira</p>
+          <p class="card-text">25 mutual Friends</p>
+          <button  class="card-btn">Add Friend</button>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-body">
+          <img class="cardlily-img" src="thumbnails/cat-551554__340.jpg" alt="">
+          <p class="cardtext-lily">Lily</p>
+          <p class="card-text">20 mutual Friends</p>
+          <button  class="card-btn">Add Friend</button>
+      </div>
+    </div>
+  </div>
+    <div>
+      <img class="googlelogo" src="LOGO/Googlelogo.png" alt="">
+      <input class="googletextbox" type="text" placeholder="Search Google or type URL">
+    </div>
+    <div class="googlebuttons">
+      <button class="search-btn">Google Search</button>
+      <button class="feel-btn">I'm Feeling Lucky</button>
+    </div>
+</body>
+</html>
